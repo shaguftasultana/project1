@@ -11,8 +11,8 @@ const Hero = () => {
     <>
       <section className="Hero-bg pt-[100px]">
         <Navbar />
-        <section className="flex flex-col md:flex-row items-center max-w-[1347.76px] mx-auto">
-          <div className="flex w-full flex-col md:flex-row items-start mt-[80px] text-white">
+        <section className="flex flex-col md:flex-row items-center max-w-[1347.76px] mx-auto ">
+          <div className="flex w-[92%] flex-col md:flex-row items-start mt-[80px] text-white">
             <div className="w-[35%]  text-left  ">
               <h1
                 className={`text-[64px] line-height-[90.6px] font-[800] ${inter.className}`}
