@@ -35,7 +35,7 @@ const Hero = () => {
               <div className="pr-[30px]">
                 <Image
                   className="w-[170px] ml-auto"
-                  src="/rocket.png"
+                  src="Rocket.png"
                   alt="rocket"
                   width={200}
                   height={200}
