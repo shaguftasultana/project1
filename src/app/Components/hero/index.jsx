@@ -36,6 +36,7 @@ const Hero = () => {
                 <Image
                   className="w-[170px] ml-auto"
                   src="/rocket.png"
+                  alt="rocket"
                   width={200}
                   height={200}
                 />
