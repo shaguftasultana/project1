@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+/* styles/globals.css */
+@keyframes animate-cloud {
+  0%,
+  100% {
+    transform: translateX(-20px);
+  }
+  50% {
+    transform: translateX(20px);
+  }
+}
+
+.animate-cloud {
+  animation: animate-cloud 5s ease-in-out infinite;
+}
+.Hero-bg {
+  background: url(./background.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+body,
+html {
+  overflow-x: hidden;
+}
