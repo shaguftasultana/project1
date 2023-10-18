@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <>
       <section className="relative">
-        <nav className="flex  justify-center items-center bg-white lg:w-[1347.76px] lg:h-[75px] mx-auto  lg:px-[22.39px] lg:py-[17.91px] lg:pb-[17.91px] border-white border-[11.19px] rounded-[11.19px]  justify-between  ">
+        <nav className="flex  justify-center items-center bg-white w-[1347.76px] h-[75px] mx-auto  px-[22.39px] py-[17.91px] pb-[17.91px] border-white border-[11.19px] rounded-[11.19px]  justify-between  ">
           <div className="flex gap-[26.87px] whitespace-nowrap">
             <Link
               href=""
