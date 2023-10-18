@@ -11,30 +11,30 @@ const Hero = () => {
     <>
       <section className="Hero-bg pt-[100px]">
         <Navbar />
-        <section className="flex flex-col md:flex-row items-center max-w-[1347.76px] mx-auto ">
-          <div className="flex w-full flex-col md:flex-row items-start mt-[80px] text-white px-[40px] ">
-            <div className="w-[35%]  text-left  ">
+        <section className="flex flex-col md:flex-row items-center lg:max-w-[1347.76px] mx-auto ">
+          <div className="flex w-full flex-col md:flex-row items-start lg:mt-[80px] text-white lg:px-[40px] ">
+            <div className="lg:w-[35%]  text-left  ">
               <h1
-                className={`text-[64px] line-height-[90.6px] font-[800] ${inter.className}`}
+                className={`lg:text-[64px] lg:line-height-[90.6px] lg:font-[800] ${inter.className}`}
               >
                 Supporting <span className="flex">Daycare</span>
                 Providers
               </h1>
               <p
-                className={`${DM.className} text-[30px] line-height-[35.82px] mt-[26.87]`}
+                className={`${DM.className} lg:text-[30px] lg:line-height-[35.82px] lg:mt-[26.87]`}
               >
                 Because Your passion Doesn't <br /> Clock Out
               </p>
               <button
-                className={`${bt.className} text-white bg-[#25314C]  line-height-[26.87px] mt-[44.78px]  font-[500] px-[50px]  py-[16px] rounded-md`}
+                className={`${bt.className} lg:text-white bg-[#25314C]  lg:line-height-[26.87px] lg:mt-[44.78px]  lg:font-[500] lg:px-[50px]  lg:py-[16px] rounded-md`}
               >
                 Read More
               </button>
             </div>
-            <div className="w-[70%] relative left-[90px]  ">
-              <div className="pr-[30px]">
+            <div className="lg:w-[70%] relative lg:left-[90px]  ">
+              <div className="lg:pr-[30px]">
                 <Image
-                  className="w-[170px] ml-auto"
+                  className="lg:w-[170px] ml-auto"
                   src="/Rocket.png"
                   alt="rocket"
                   width={200}
@@ -43,7 +43,7 @@ const Hero = () => {
               </div>
 
               <Image
-                className="w-full mt-[-24px]"
+                className="w-full lg:mt-[-24px]"
                 src="/1.png"
                 alt="hero"
                 width={3000}
